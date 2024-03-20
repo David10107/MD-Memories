@@ -82,6 +82,27 @@ window.onload = function () {
             createAndDisplayDiv(divData);
         });
 
+        c1.addEventListener('mouseenter', (e) => {
+            e.target.querySelector('.blur').style.display = 'none';
+            e.target.querySelector('.memoryDetails').style.display = 'flex';
+        })
+        
+        c1.addEventListener('mouseleave', (e) => {
+            e.target.querySelector('.blur').style.display = 'flex';
+            e.target.querySelector('.memoryDetails').style.display = 'none';
+        })
+        
+        
+        c2.addEventListener('mouseenter', (e) => {
+            e.target.querySelector('.blur').style.display = 'none';
+            e.target.querySelector('.memoryDetails').style.display = 'flex';
+        })
+        
+        c2.addEventListener('mouseleave', (e) => {
+            e.target.querySelector('.blur').style.display = 'flex';
+            e.target.querySelector('.memoryDetails').style.display = 'none';
+        })
+
     }
     
 };

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="Memories ❤.css"> -->
+    <link rel="stylesheet" href="MemoriesTest.css">
+    <link rel="icon" href="/assets/photos.png">
+    <title>Memories ❤</title>
+</head>
+<body>
+
+    <a class="goToBottom">↓</a>
+
+    <p class="memories">Memories ❤</p>
+    <section class="memoryCards" id="MC">
+        <div class="container">
+            <div class="card1">
+                <p class="primTitle">The Greatest One</p>
+                <p class="date">❤ Friday 29 / 12 / 2023 ❤</p>
+            </div>
+
+            <div class="card c1">
+                <div class="blur">Sunday 21 / 1 / 2024</div>
+                <div class="memoryDetails">This was the day after your birthday, we sat and chat. This was a nice memory as this was our first date ❤.</div>
+            </div>
+
+            <div class="card c2">
+                <div class="blur">Sunday 10 / 3 / 2024</div>
+                <div class="memoryDetails">This was another day and the second date, I met you and we sat and talked with each other and drank smoothie, I told you that I am afraid that you leave me but you told me that you love me and you won't do this ( اللي بيننا مش بسيط ). I love you too very much ❤.</div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="createMemory" id="CM">
+        <div class="form">
+            <p class="instructions">Write Here To Create A New Memory ❤</p>
+            <div class="inputDiv"></div>
+            <input class="input" id="input" onfocus="focused()" onblur="blurred()" type="text" placeholder="Write The Date Of The Memory">
+            <input class="input2" type="text" onfocus="focused2()" onblur="blurred2()" placeholder="Write The Details Of The Memory">
+            <div class="buttons-container">
+                <button class="delete" onclick="deleteLastDiv()">Delete</button>
+                <button class="create" onclick="createCard()">Create</button>
+                <button class="editBtn">Edit</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- <script src="Memories ❤.js"></script> -->
+    <script src="MemoriesTest.js"></script>
+</body>
+</html>

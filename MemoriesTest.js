@@ -261,6 +261,16 @@ function refreshDivs (savedDivs) {
     container.innerHTML = `<div class="card1">
     <p class="primTitle">The Greatest One</p>
     <p class="date">❤ Friday 29 / 12 / 2023 ❤</p>
+</div>
+
+<div class="card c1">
+    <div class="blur">Sunday 21 / 1 / 2024</div>
+    <div class="memoryDetails">This was the day after your birthday, we sat and chat. This was a nice memory as this was our first date ❤.</div>
+</div>
+
+<div class="card c2">
+    <div class="blur">Sunday 10 / 3 / 2024</div>
+    <div class="memoryDetails">This was another day and the second date, I met you and we sat and talked with each other and drank smoothie, I told you that I am afraid that you leave me but you told me that you love me and you won't do this ( اللي بيننا مش بسيط ). I love you too very much ❤.</div>
 </div>`;
 
 // container.innerHTML = '';
